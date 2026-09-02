@@ -7,8 +7,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #eef7f3;
-  color: #163b50;
+  background-color: #f3eefa;
+  color: #3d1a63;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ body {
 
 /* Header */
 .header {
-  background-color: #1565c0;
+  background-color: #6a2ca0;
   color: #ffffff;
   padding: 20px;
   text-align: center;
@@ -40,11 +40,11 @@ body {
 .contador {
   font-size: 72px;
   font-weight: bold;
-  color: #159a63;
+  color: #7e3ff2;
 }
 
 .btn {
-  background-color: #159a63;
+  background-color: #7e3ff2;
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -54,12 +54,12 @@ body {
 }
 
 .btn:hover {
-  background-color: #0d7549;
+  background-color: #5f2ac0;
 }
 
 /* Footer */
 .footer {
-  background-color: #163b50;
+  background-color: #3d1a63;
   color: #ffffff;
   padding: 16px;
   text-align: center;

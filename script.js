@@ -5,6 +5,7 @@ let contador = 0;
 const textoContador = document.getElementById("contador");
 const botonSumar = document.getElementById("btn-sumar");
 const botonRestar = document.getElementById("btn-restar");
+const botonMultiplicar = document.getElementById("btn-multiplicar");
 
 // Cada clic en el boton suma 1 y actualiza lo que se ve en pantalla
 botonSumar.addEventListener("click", function () {
@@ -15,5 +16,11 @@ botonSumar.addEventListener("click", function () {
 // Cada clic en el boton reduce 1 y actualiza lo que se ve en pantalla
 botonRestar.addEventListener("click", function () {
   contador = contador - 1;
+  textoContador.textContent = contador;
+});
+
+// Cada clic en el boton multiplica por 2 y actualiza lo que se ve en pantalla
+botonMultiplicar.addEventListener("click", function () {
+  contador = contador * 2;
   textoContador.textContent = contador;
 });
